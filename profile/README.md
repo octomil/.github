@@ -6,7 +6,8 @@ Unified platform for on-device inference and training — iOS, Android, browser,
 
 ```bash
 curl -fsSL https://octomil.com/install.sh | sh
-octomil train
+octomil pull mnist-classifier
+octomil serve mnist-classifier
 ```
 
 ### What we build
