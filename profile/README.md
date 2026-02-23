@@ -2,7 +2,10 @@
 
 **Ship AI to phones.** Federated learning platform that makes privacy-preserving machine learning on edge devices simple.
 
-`pip install octomil && octomil train`
+```bash
+curl -fsSL https://octomil.com/install.sh | sh
+octomil train
+```
 
 ### What we build
 
