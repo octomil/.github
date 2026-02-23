@@ -1,6 +1,8 @@
 # Octomil
 
-**Ship AI to phones.** Federated learning platform that makes privacy-preserving machine learning on edge devices simple.
+**Run and train ML on any device.**
+
+Unified platform for on-device inference and training — iOS, Android, browser, and local. Data never leaves the edge.
 
 ```bash
 curl -fsSL https://octomil.com/install.sh | sh
@@ -9,10 +11,10 @@ octomil train
 
 ### What we build
 
-- **Orchestration server** — manages devices, training rounds, model aggregation, deployments
 - **Cross-platform SDKs** — Python, iOS (Swift + CoreML), Android (Kotlin + TFLite), Browser
+- **Orchestration server** — manages devices, training rounds, model aggregation, deployments
 - **Dashboard** — real-time monitoring of devices, rounds, model versions, experiments
-- **9 aggregation strategies** — FedAvg, FedProx, FedOpt, FedAdam, Krum, Scaffold, and more
+- **Federated learning** — 9 aggregation strategies, privacy-preserving, data stays on-device
 
 ### Repos
 
